@@ -126,12 +126,12 @@ function onGetVideo(error, video:FacebookVideo){
     }
 }
 
-//getAsset("10154777299020137", userToken, onGetPhoto);
+getAsset("10155082166190137", userToken, onGetPhoto);
 function onGetPhoto(error, photo: FacebookPhoto){
     if(error){
         console.error(error.message)
     }else{
-        console.log(photo.id, photo.source);
+        console.log(photo.images);
     }
 }
 
