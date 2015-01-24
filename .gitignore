@@ -3,3 +3,4 @@ node_modules/*
 .idea*
 *.js*
 !lib/googleParser/*.js
+lib/googleParser/GoogleParser.js*
